@@ -7,17 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC35004F1858148E007D799F /* bitcoin_black.png in Resources */ = {isa = PBXBuildFile; fileRef = EC35004E1858148D007D799F /* bitcoin_black.png */; };
+		EC3500591858296B007D799F /* icon_16_litecoin.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3500581858296B007D799F /* icon_16_litecoin.png */; };
+		EC35005B18584D00007D799F /* bitcoin_white.png in Resources */ = {isa = PBXBuildFile; fileRef = EC35005A18584D00007D799F /* bitcoin_white.png */; };
+		EC3500641858A228007D799F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3500631858A228007D799F /* AppDelegate.m */; };
+		EC3500661858A23E007D799F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3500651858A23E007D799F /* MainMenu.xib */; };
+		EC6DD0F41859216300A354CB /* PriceSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6DD0F31859216300A354CB /* PriceSettingController.m */; };
+		EC6DD0F81859232C00A354CB /* PriceSettingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6DD0F71859232C00A354CB /* PriceSettingController.xib */; };
+		ECAAB24E185A95DA00652A51 /* down-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ECAAB24C185A95DA00652A51 /* down-icon.png */; };
+		ECAAB24F185A95DA00652A51 /* up-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ECAAB24D185A95DA00652A51 /* up-icon.png */; };
+		ECAAB252185A999C00652A51 /* down-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECAAB250185A999C00652A51 /* down-icon@2x.png */; };
+		ECAAB253185A999C00652A51 /* up-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECAAB251185A999C00652A51 /* up-icon@2x.png */; };
 		ECB39E09184D4B4500E0F0F0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB39E08184D4B4500E0F0F0 /* Cocoa.framework */; };
 		ECB39E13184D4B4500E0F0F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECB39E11184D4B4500E0F0F0 /* InfoPlist.strings */; };
 		ECB39E15184D4B4500E0F0F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB39E14184D4B4500E0F0F0 /* main.m */; };
 		ECB39E19184D4B4500E0F0F0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = ECB39E17184D4B4500E0F0F0 /* Credits.rtf */; };
-		ECB39E1C184D4B4500E0F0F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB39E1B184D4B4500E0F0F0 /* AppDelegate.m */; };
-		ECB39E1F184D4B4500E0F0F0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB39E1D184D4B4500E0F0F0 /* MainMenu.xib */; };
 		ECB39E21184D4B4500E0F0F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB39E20184D4B4500E0F0F0 /* Images.xcassets */; };
 		ECB39E28184D4B4500E0F0F0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB39E27184D4B4500E0F0F0 /* XCTest.framework */; };
 		ECB39E29184D4B4500E0F0F0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB39E08184D4B4500E0F0F0 /* Cocoa.framework */; };
 		ECB39E31184D4B4500E0F0F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECB39E2F184D4B4500E0F0F0 /* InfoPlist.strings */; };
 		ECB39E33184D4B4500E0F0F0 /* coinmonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB39E32184D4B4500E0F0F0 /* coinmonitorTests.m */; };
+		ECB54DD0185D2D1F00733127 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB54DCF185D2D1F00733127 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,25 +41,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ECB39E05184D4B4500E0F0F0 /* coinmonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coinmonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC35004E1858148D007D799F /* bitcoin_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bitcoin_black.png; sourceTree = "<group>"; };
+		EC3500581858296B007D799F /* icon_16_litecoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_16_litecoin.png; sourceTree = "<group>"; };
+		EC35005A18584D00007D799F /* bitcoin_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bitcoin_white.png; sourceTree = "<group>"; };
+		EC3500621858A228007D799F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC3500631858A228007D799F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC3500651858A23E007D799F /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		EC6DD0F21859216300A354CB /* PriceSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriceSettingController.h; sourceTree = "<group>"; };
+		EC6DD0F31859216300A354CB /* PriceSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriceSettingController.m; sourceTree = "<group>"; };
+		EC6DD0F71859232C00A354CB /* PriceSettingController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PriceSettingController.xib; path = ../PriceSettingController.xib; sourceTree = "<group>"; };
+		ECAAB24B1859726F00652A51 /* CoinMonitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = CoinMonitor.entitlements; path = CoinMonitor/CoinMonitor.entitlements; sourceTree = "<group>"; };
+		ECAAB24C185A95DA00652A51 /* down-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down-icon.png"; sourceTree = "<group>"; };
+		ECAAB24D185A95DA00652A51 /* up-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up-icon.png"; sourceTree = "<group>"; };
+		ECAAB250185A999C00652A51 /* down-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down-icon@2x.png"; sourceTree = "<group>"; };
+		ECAAB251185A999C00652A51 /* up-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up-icon@2x.png"; sourceTree = "<group>"; };
+		ECB39E05184D4B4500E0F0F0 /* CoinMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB39E08184D4B4500E0F0F0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		ECB39E0B184D4B4500E0F0F0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		ECB39E0C184D4B4500E0F0F0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		ECB39E0D184D4B4500E0F0F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		ECB39E10184D4B4500E0F0F0 /* coinmonitor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "coinmonitor-Info.plist"; sourceTree = "<group>"; };
 		ECB39E12184D4B4500E0F0F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ECB39E14184D4B4500E0F0F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ECB39E16184D4B4500E0F0F0 /* coinmonitor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "coinmonitor-Prefix.pch"; sourceTree = "<group>"; };
+		ECB39E16184D4B4500E0F0F0 /* CoinMonitor.temp_caseinsensitive_rename-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoinMonitor.temp_caseinsensitive_rename-Prefix.pch"; sourceTree = "<group>"; };
 		ECB39E18184D4B4500E0F0F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		ECB39E1A184D4B4500E0F0F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		ECB39E1B184D4B4500E0F0F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ECB39E1E184D4B4500E0F0F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		ECB39E20184D4B4500E0F0F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		ECB39E26184D4B4500E0F0F0 /* coinmonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coinmonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB39E26184D4B4500E0F0F0 /* CoinMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB39E27184D4B4500E0F0F0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		ECB39E2E184D4B4500E0F0F0 /* coinmonitorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "coinmonitorTests-Info.plist"; sourceTree = "<group>"; };
+		ECB39E2E184D4B4500E0F0F0 /* CoinMonitor.temp_caseinsensitive_renameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoinMonitor.temp_caseinsensitive_renameTests-Info.plist"; sourceTree = "<group>"; };
 		ECB39E30184D4B4500E0F0F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ECB39E32184D4B4500E0F0F0 /* coinmonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coinmonitorTests.m; sourceTree = "<group>"; };
+		ECB54D93185ADB9C00733127 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = "en.lproj/CoinMonitor.temp_caseinsensitive_rename-Info.plist"; sourceTree = "<group>"; };
+		ECB54D98185ADBD600733127 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = "zh-Hans"; path = "zh-Hans.lproj/Credits.rtf"; sourceTree = "<group>"; };
+		ECB54D99185ADBD600733127 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/CoinMonitor.temp_caseinsensitive_rename-Info.plist"; sourceTree = "<group>"; };
+		ECB54D9A185ADBD600733127 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		ECB54D9B185ADBD600733127 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		ECB54DCF185D2D1F00733127 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECB54DD0185D2D1F00733127 /* QuartzCore.framework in Frameworks */,
 				ECB39E09184D4B4500E0F0F0 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,6 +103,7 @@
 		ECB39DFC184D4B4500E0F0F0 = {
 			isa = PBXGroup;
 			children = (
+				ECAAB24B1859726F00652A51 /* CoinMonitor.entitlements */,
 				ECB39E0E184D4B4500E0F0F0 /* coinmonitor */,
 				ECB39E2C184D4B4500E0F0F0 /* coinmonitorTests */,
 				ECB39E07184D4B4500E0F0F0 /* Frameworks */,
@@ -86,8 +114,8 @@
 		ECB39E06184D4B4500E0F0F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ECB39E05184D4B4500E0F0F0 /* coinmonitor.app */,
-				ECB39E26184D4B4500E0F0F0 /* coinmonitorTests.xctest */,
+				ECB39E05184D4B4500E0F0F0 /* CoinMonitor.app */,
+				ECB39E26184D4B4500E0F0F0 /* CoinMonitorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +123,7 @@
 		ECB39E07184D4B4500E0F0F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ECB54DCF185D2D1F00733127 /* QuartzCore.framework */,
 				ECB39E08184D4B4500E0F0F0 /* Cocoa.framework */,
 				ECB39E27184D4B4500E0F0F0 /* XCTest.framework */,
 				ECB39E0A184D4B4500E0F0F0 /* Other Frameworks */,
@@ -115,11 +144,21 @@
 		ECB39E0E184D4B4500E0F0F0 /* coinmonitor */ = {
 			isa = PBXGroup;
 			children = (
-				ECB39E1A184D4B4500E0F0F0 /* AppDelegate.h */,
-				ECB39E1B184D4B4500E0F0F0 /* AppDelegate.m */,
-				ECB39E1D184D4B4500E0F0F0 /* MainMenu.xib */,
+				EC3500621858A228007D799F /* AppDelegate.h */,
+				EC3500631858A228007D799F /* AppDelegate.m */,
+				EC3500651858A23E007D799F /* MainMenu.xib */,
+				EC35004E1858148D007D799F /* bitcoin_black.png */,
+				EC35005A18584D00007D799F /* bitcoin_white.png */,
+				EC3500581858296B007D799F /* icon_16_litecoin.png */,
+				ECAAB24C185A95DA00652A51 /* down-icon.png */,
+				ECAAB24D185A95DA00652A51 /* up-icon.png */,
+				ECAAB250185A999C00652A51 /* down-icon@2x.png */,
+				ECAAB251185A999C00652A51 /* up-icon@2x.png */,
 				ECB39E20184D4B4500E0F0F0 /* Images.xcassets */,
 				ECB39E0F184D4B4500E0F0F0 /* Supporting Files */,
+				EC6DD0F21859216300A354CB /* PriceSettingController.h */,
+				EC6DD0F31859216300A354CB /* PriceSettingController.m */,
+				EC6DD0F71859232C00A354CB /* PriceSettingController.xib */,
 			);
 			path = coinmonitor;
 			sourceTree = "<group>";
@@ -127,10 +166,10 @@
 		ECB39E0F184D4B4500E0F0F0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				ECB39E10184D4B4500E0F0F0 /* coinmonitor-Info.plist */,
+				ECB54D94185ADB9C00733127 /* CoinMonitor.temp_caseinsensitive_rename-Info.plist */,
 				ECB39E11184D4B4500E0F0F0 /* InfoPlist.strings */,
 				ECB39E14184D4B4500E0F0F0 /* main.m */,
-				ECB39E16184D4B4500E0F0F0 /* coinmonitor-Prefix.pch */,
+				ECB39E16184D4B4500E0F0F0 /* CoinMonitor.temp_caseinsensitive_rename-Prefix.pch */,
 				ECB39E17184D4B4500E0F0F0 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -148,7 +187,7 @@
 		ECB39E2D184D4B4500E0F0F0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				ECB39E2E184D4B4500E0F0F0 /* coinmonitorTests-Info.plist */,
+				ECB39E2E184D4B4500E0F0F0 /* CoinMonitor.temp_caseinsensitive_renameTests-Info.plist */,
 				ECB39E2F184D4B4500E0F0F0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -157,9 +196,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ECB39E04184D4B4500E0F0F0 /* coinmonitor */ = {
+		ECB39E04184D4B4500E0F0F0 /* CoinMonitor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECB39E36184D4B4500E0F0F0 /* Build configuration list for PBXNativeTarget "coinmonitor" */;
+			buildConfigurationList = ECB39E36184D4B4500E0F0F0 /* Build configuration list for PBXNativeTarget "CoinMonitor" */;
 			buildPhases = (
 				ECB39E01184D4B4500E0F0F0 /* Sources */,
 				ECB39E02184D4B4500E0F0F0 /* Frameworks */,
@@ -169,14 +208,14 @@
 			);
 			dependencies = (
 			);
-			name = coinmonitor;
+			name = CoinMonitor;
 			productName = coinmonitor;
-			productReference = ECB39E05184D4B4500E0F0F0 /* coinmonitor.app */;
+			productReference = ECB39E05184D4B4500E0F0F0 /* CoinMonitor.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ECB39E25184D4B4500E0F0F0 /* coinmonitorTests */ = {
+		ECB39E25184D4B4500E0F0F0 /* CoinMonitorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECB39E39184D4B4500E0F0F0 /* Build configuration list for PBXNativeTarget "coinmonitorTests" */;
+			buildConfigurationList = ECB39E39184D4B4500E0F0F0 /* Build configuration list for PBXNativeTarget "CoinMonitorTests" */;
 			buildPhases = (
 				ECB39E22184D4B4500E0F0F0 /* Sources */,
 				ECB39E23184D4B4500E0F0F0 /* Frameworks */,
@@ -187,9 +226,9 @@
 			dependencies = (
 				ECB39E2B184D4B4500E0F0F0 /* PBXTargetDependency */,
 			);
-			name = coinmonitorTests;
+			name = CoinMonitorTests;
 			productName = coinmonitorTests;
-			productReference = ECB39E26184D4B4500E0F0F0 /* coinmonitorTests.xctest */;
+			productReference = ECB39E26184D4B4500E0F0F0 /* CoinMonitorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -201,26 +240,35 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = funland;
 				TargetAttributes = {
+					ECB39E04184D4B4500E0F0F0 = {
+						DevelopmentTeam = X2E28NEAA8;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
 					ECB39E25184D4B4500E0F0F0 = {
 						TestTargetID = ECB39E04184D4B4500E0F0F0;
 					};
 				};
 			};
-			buildConfigurationList = ECB39E00184D4B4500E0F0F0 /* Build configuration list for PBXProject "coinmonitor" */;
+			buildConfigurationList = ECB39E00184D4B4500E0F0F0 /* Build configuration list for PBXProject "CoinMonitor" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = ECB39DFC184D4B4500E0F0F0;
 			productRefGroup = ECB39E06184D4B4500E0F0F0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ECB39E04184D4B4500E0F0F0 /* coinmonitor */,
-				ECB39E25184D4B4500E0F0F0 /* coinmonitorTests */,
+				ECB39E04184D4B4500E0F0F0 /* CoinMonitor */,
+				ECB39E25184D4B4500E0F0F0 /* CoinMonitorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,10 +278,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC6DD0F81859232C00A354CB /* PriceSettingController.xib in Resources */,
+				ECAAB24F185A95DA00652A51 /* up-icon.png in Resources */,
+				ECAAB24E185A95DA00652A51 /* down-icon.png in Resources */,
+				EC35004F1858148E007D799F /* bitcoin_black.png in Resources */,
 				ECB39E13184D4B4500E0F0F0 /* InfoPlist.strings in Resources */,
 				ECB39E21184D4B4500E0F0F0 /* Images.xcassets in Resources */,
 				ECB39E19184D4B4500E0F0F0 /* Credits.rtf in Resources */,
-				ECB39E1F184D4B4500E0F0F0 /* MainMenu.xib in Resources */,
+				EC3500591858296B007D799F /* icon_16_litecoin.png in Resources */,
+				EC3500661858A23E007D799F /* MainMenu.xib in Resources */,
+				ECAAB252185A999C00652A51 /* down-icon@2x.png in Resources */,
+				ECAAB253185A999C00652A51 /* up-icon@2x.png in Resources */,
+				EC35005B18584D00007D799F /* bitcoin_white.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +308,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECB39E1C184D4B4500E0F0F0 /* AppDelegate.m in Sources */,
+				EC6DD0F41859216300A354CB /* PriceSettingController.m in Sources */,
+				EC3500641858A228007D799F /* AppDelegate.m in Sources */,
 				ECB39E15184D4B4500E0F0F0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +327,7 @@
 /* Begin PBXTargetDependency section */
 		ECB39E2B184D4B4500E0F0F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ECB39E04184D4B4500E0F0F0 /* coinmonitor */;
+			target = ECB39E04184D4B4500E0F0F0 /* CoinMonitor */;
 			targetProxy = ECB39E2A184D4B4500E0F0F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -280,6 +337,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				ECB39E12184D4B4500E0F0F0 /* en */,
+				ECB54D9A185ADBD600733127 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -288,24 +346,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				ECB39E18184D4B4500E0F0F0 /* en */,
+				ECB54D98185ADBD600733127 /* zh-Hans */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		ECB39E1D184D4B4500E0F0F0 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ECB39E1E184D4B4500E0F0F0 /* Base */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 		ECB39E2F184D4B4500E0F0F0 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				ECB39E30184D4B4500E0F0F0 /* en */,
+				ECB54D9B185ADBD600733127 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECB54D94185ADB9C00733127 /* CoinMonitor.temp_caseinsensitive_rename-Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB54D93185ADB9C00733127 /* en */,
+				ECB54D99185ADBD600733127 /* zh-Hans */,
+			);
+			name = "CoinMonitor.temp_caseinsensitive_rename-Info.plist";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -326,6 +387,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: xiaodong fu (X2E28NEAA8)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -344,6 +406,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -363,6 +426,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: xiaodong fu (X2E28NEAA8)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -375,6 +439,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -382,12 +447,18 @@
 		ECB39E37184D4B4500E0F0F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CoinMonitor/CoinMonitor.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "coinmonitor/coinmonitor-Prefix.pch";
-				INFOPLIST_FILE = "coinmonitor/coinmonitor-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "coinmonitor/CoinMonitor.temp_caseinsensitive_rename-Prefix.pch";
+				INFOPLIST_FILE = "coinmonitor/en.lproj/CoinMonitor.temp_caseinsensitive_rename-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = CoinMonitor;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx10.9;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -395,12 +466,18 @@
 		ECB39E38184D4B4500E0F0F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CoinMonitor/CoinMonitor.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "coinmonitor/coinmonitor-Prefix.pch";
-				INFOPLIST_FILE = "coinmonitor/coinmonitor-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "coinmonitor/CoinMonitor.temp_caseinsensitive_rename-Prefix.pch";
+				INFOPLIST_FILE = "coinmonitor/en.lproj/CoinMonitor.temp_caseinsensitive_rename-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = CoinMonitor;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx10.9;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -420,8 +497,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "coinmonitorTests/coinmonitorTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "coinmonitorTests/CoinMonitor.temp_caseinsensitive_renameTests-Info.plist";
+				PRODUCT_NAME = CoinMonitorTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -438,8 +515,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "coinmonitor/coinmonitor-Prefix.pch";
-				INFOPLIST_FILE = "coinmonitorTests/coinmonitorTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "coinmonitorTests/CoinMonitor.temp_caseinsensitive_renameTests-Info.plist";
+				PRODUCT_NAME = CoinMonitorTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -448,7 +525,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ECB39E00184D4B4500E0F0F0 /* Build configuration list for PBXProject "coinmonitor" */ = {
+		ECB39E00184D4B4500E0F0F0 /* Build configuration list for PBXProject "CoinMonitor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ECB39E34184D4B4500E0F0F0 /* Debug */,
@@ -457,21 +534,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ECB39E36184D4B4500E0F0F0 /* Build configuration list for PBXNativeTarget "coinmonitor" */ = {
+		ECB39E36184D4B4500E0F0F0 /* Build configuration list for PBXNativeTarget "CoinMonitor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ECB39E37184D4B4500E0F0F0 /* Debug */,
 				ECB39E38184D4B4500E0F0F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		ECB39E39184D4B4500E0F0F0 /* Build configuration list for PBXNativeTarget "coinmonitorTests" */ = {
+		ECB39E39184D4B4500E0F0F0 /* Build configuration list for PBXNativeTarget "CoinMonitorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ECB39E3A184D4B4500E0F0F0 /* Debug */,
 				ECB39E3B184D4B4500E0F0F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
